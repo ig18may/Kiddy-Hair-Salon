@@ -17,21 +17,42 @@
     grid-row: 1 / 1;
     display: grid;
     grid-auto-flow: column;
-    background-image: url(logo.png);
-    background-size: 300px;
-    grid-gap: 20px;
-    justify-content: center;
-    align-content: center;
-    justify-content: space-between;
-    padding: 0px 50px;
     max-width: 100%;
+    overflow: hidden;
+    background-color: #333;
+    position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+}
+
+.main2 > img {
+    height: 80px;
+    width: 250px;
 }
 
 .main2 > a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding-top: 30px;
     text-decoration: none;
-    color: black;
+    font-size: 22px;
+    text-decoration: none;
+    color: white;
     font-style: italic;
-    font-size: 25px;
+    font-size: 22px;
+}
+
+.main2 > a:hover {
+    background-color: #772F74;
+    color: black;
+    border-bottom: 1px black solid;
+}
+
+.main2 .current {
+    background-color: #2DBDEE;
+    color: black;
+    border-bottom: 1px black solid;
 }
 
 .ignore {
