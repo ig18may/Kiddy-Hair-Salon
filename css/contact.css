@@ -88,6 +88,10 @@ th{
     font-size: 22px;
 }
 
+.bottom {
+    font-size: 17px;
+}
+
 .mapImg {
     display: grid;
     grid-column: 1 / 1;

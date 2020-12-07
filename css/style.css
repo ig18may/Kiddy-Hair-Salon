@@ -179,6 +179,7 @@ p, h2 {
     display: grid;
     justify-content: center;
     align-content: center;
+    padding-right: 120px;
 }
 
 .footer2 > ul > li > a {
