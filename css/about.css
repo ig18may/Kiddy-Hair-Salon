@@ -147,7 +147,8 @@ h1 {
 
 .footer2 > ul > li > a {
     color: white;
-    font-style: italic; 
+    font-style: italic;
+    text-decoration: none; 
 }
 
 .footer2 > ul > li {
@@ -159,12 +160,16 @@ h1 {
     grid-row: 7 / 8;
     background-color: #772F74;
     margin-top: -10px;
-    padding-left: -10px;
 }
 
 .footer2Right, h2, p {
     color: white;
     font-style: italic;
+}
+
+.center {
+    font-size: 18px;
+    max-width: 600px;
 }
 
 .bottomFooter {
