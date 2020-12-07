@@ -3,9 +3,97 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Contact</title>
+    <link rel="stylesheet" href="css/contact.css">
+    <script src="https://use.fontawesome.com/cd5a54ab72.js"></script>
 </head>
 <body>
+    <div class="content">
+
+        <div class="main">
+            <a href="file:///E:/Program%20Stuff/newProject/index.html">Home</a>
+            <a href="file:///E:/Program%20Stuff/newProject/about.html">About</a>
+            <a class="current" href="file:///E:/Program%20Stuff/newProject/contact.html">Contact</a>
+            <a href="">Pricing</a>
+            <a href="tel:0645820362">Number : 064 582 0362</a>
+            <img style="margin-right: -200px;padding-top: 5px;" src="images/logo.png" alt="Logo">
+        </div>
+
+        <div class="banner">
+            <div class="nestedBanner">
+                <p style="color: #FBBD41;">Get In Touch</p>
+            </div>
+        </div>
+
+        <div class="fontawsome">
+            <h1 style="color: black;font-size: 38px;padding-top: 20px;">How to contact us</h1>
+            <table>
+                <thead>
+                    <tr>
+                        <th><i style="color: #FBBD41; font-size: 80px;" class="fa fa-map-marker" aria-hidden="true"></i></th>
+                        <th><i style="color: #FBBD41; font-size: 80px;"class="fa fa-phone" aria-hidden="true"></i></th>
+                        <th><i style="color: #FBBD41; font-size: 80px;"class="fa fa-envelope-o" aria-hidden="true"></i>
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="top">
+                        <td>Address</td>
+                        <td>Number</td>
+                        <td>Email</td>
+                    </tr>
+                    <tr>
+                        <td><a style="color: black;"href="https://www.google.com/maps/search/?api=1&query=3+Combrink+Street%2C+Villieria%2C+Pretoria%2C+0186">1145 Combrink Street, Villieria, Pretoria 0186</a></td>
+                        <td><a style="color: black;" href="tel:0645820362">Number : 064 582 0362</a></td>
+                        <td><a style="color: black;"href="mailto:ssalon@adscampaign.co.za">salon@adscampaign.co.za</a></td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <div class="mapImg">
+                    <img src="images/map.jpeg" alt="">
+            </div>
+
+            <div class="form">
+                <form action="action_page.php">
+                    <label for="fname">First Name</label>
+                    <input type="text" name="fname" id="firstname"
+                    placeholder="Your name.." required>
+
+                    <label for="lname">Last Name</label>
+                    <input type="text" name="lname" id="lastname"
+                    placeholder="Your last name.." required>
+
+                    <label for="phone">Phone Number</label>
+                    <input type="text" name="phone" id="phone" placeholder="Your phone number.." required>
+
+                    <label for="email">Email Address</label>
+                    <input type="text" name="email" id="email" placeholder="Your email address.." required>
+
+                    <label for="kids">How many kids are you booking for?</label>
+                    <select name="kids" id="kids">
+                        <option value="">--Please Select--</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select>
+
+                    <label for="preferredappointment">Preferred Appointment (date and time):</label>
+                    <input type="datetime-local" id="preferredappointment" name="preferredappointment" style="float: left;margin-left: 5px;">
+
+                        <br><br><br>
+
+                    <label for="subject">Subject</label>
+                    <textarea name="subject" id="subject" style="height: 120px;"></textarea>
+
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+        </div>
+
+    </div>
     
 </body>
 </html>

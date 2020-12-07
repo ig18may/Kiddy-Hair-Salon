@@ -1,10 +1,10 @@
-.body2 {
+.body {
     text-align: center;
     margin: 0px auto;
     background-color: white;
 }
 
-.content2 {
+.content {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: repeat(8, minmax(100px, auto));
@@ -12,7 +12,7 @@
     row-gap: 10px;
 }
 
-.main2 {
+.main {
     grid-column: 1 / 4;
     grid-row: 1 / 1;
     display: grid;
@@ -25,12 +25,12 @@
 	top: 0;
 }
 
-.main2 > img {
+.main > img {
     height: 80px;
     width: 250px;
 }
 
-.main2 > a {
+.main > a {
     float: left;
     color: #f2f2f2;
     text-align: center;
@@ -43,13 +43,13 @@
     font-size: 22px;
 }
 
-.main2 > a:hover {
+.main > a:hover {
     background-color: #772F74;
     color: black;
     border-bottom: 1px black solid;
 }
 
-.main2 .current {
+.main .current {
     background-color: #2DBDEE;
     color: black;
     border-bottom: 1px black solid;
