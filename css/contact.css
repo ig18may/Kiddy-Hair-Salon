@@ -62,7 +62,8 @@
 
 .nestedBanner {
     background-color: #772F74;
-    margin: 0px 400px;
+    justify-content: center;
+    align-content: center;
 }
 
 .nestedBanner > p {
@@ -80,7 +81,7 @@ table,tr,td,th{
     padding: 5px 50px 5px 170px;
 }
 
-th{
+th {
 	text-align: center;
 }
 
